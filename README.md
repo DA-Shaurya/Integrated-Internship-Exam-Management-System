@@ -16,7 +16,29 @@ IEMS is a full-stack web application designed to streamline the process of manag
 - **Application Management:** Review student applications and update statuses.
 - **Question Bank:** Create, edit, and manage exam questions and multiple-choice options.
 
-## 🛠️ Tech Stack
+## 🖼️ Screenshots
+
+### 🔐 Login Page
+![Login](images/login.png)
+
+### 🧑‍💻 Admin Dashboard
+![Admin Dashboard](images/admin.png)
+
+### 🎯 Internship Portal
+![Internships](images/internships.png)
+
+### 📝 Exam Module
+![Exam](images/exams.png)
+![Exam](images/exams2.png)
+
+
+### 📊 Applications Tracking
+![Applications](images/applications.png)
+
+### 📈 Exam History
+![History](images/history.png)
+
+## �️ Tech Stack
 
 **Frontend:**
 - React.js
