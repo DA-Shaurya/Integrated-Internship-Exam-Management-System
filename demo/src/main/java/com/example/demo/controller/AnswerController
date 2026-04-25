@@ -1,0 +1,19 @@
+@RestController
+@RequestMapping("/api/answers")
+public class AnswerController {
+
+    @Autowired
+    private AnswerService service;
+
+    @PostMapping("/save")
+    public Answer save(@RequestBody Map<String, Object> data) {
+
+        int attemptId = (int) data.get("attemptId");
+        int questionId = (int) data.get("questionId");
+
+        Integer optionId = data.get("optionId") != null ? (int) data.get("optionId") : null;
+        String text = (String) data.get("text");
+
+        return service.saveAnswer(attemptId, questionId, optionId, text);
+    }
+}

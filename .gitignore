@@ -1,0 +1,18 @@
+# Node/Frontend
+frontend/node_modules/
+frontend/build/
+npm-debug.log
+.env
+
+# Maven/Backend
+demo/target/
+*.jar
+
+# IDEs and OS
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# Your summary file
+PROJECT_SUMMARY.md
